@@ -1,18 +1,23 @@
 export const TabsData = [
     {
         title: "Trang chủ",
-        path: "/home"
+        path: "/home",
+        pathHome: true,
     }, {
         title: "Hồ sơ",
-        path: "/resume"
+        path: "/resume",
+        pathHome: false,
     }, {
         title: "Kỹ năng",
-        path: "/skill"
+        path: "/skill",
+        pathHome: false,
     }, {
         title: "Dự án",
-        path: "/project"
+        path: "/project",
+        pathHome: false,
     }, {
         title: "Liên hệ",
-        path: "/contact"
+        path: "/contact",
+        pathHome: false,
     }
 ]
