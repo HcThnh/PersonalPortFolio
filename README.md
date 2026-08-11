@@ -88,3 +88,6 @@ https://youtu.be/kxR17SH02oY
 
 #### 2. Trang liên hệ và quản lý kỹ năng
 ![Trang liên hệ và quản lý kỹ năng](public/screenshot-demo2.png)
+
+### Link Vercel
+https://canhthinhportfolio.vercel.app/
