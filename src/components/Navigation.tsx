@@ -22,7 +22,7 @@ export default function Navigation({ isVisible, onClose }: NavigationProp) {
             xl:translate-x-0 xl:gap-8 xl:p-0
             ${isVisible ? "translate-x-0" : "-translate-x-full"}`}>
                 {TabsData.map((tab, index) => {
-                    const isActive = pathname === tab.path || (pathname === "/" && tab.pathHome);
+                    const isActive = pathname === tab.path;
                     return (
                         <li key={index} className="relative font-semibold text-gray-600 dark:text-gray-300 cursor-pointer 
                         group w-full xl:w-auto">

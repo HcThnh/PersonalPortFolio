@@ -17,13 +17,11 @@ function AnimatedRoutes() {
       <ScrollToTop />
       <AnimatePresence mode="wait">
         <Routes location={location} key={location.pathname}>
-          <Route path="/home" element={<PageTransition><Homepage/></PageTransition>}/>
+          <Route path="/" element={<PageTransition><Homepage/></PageTransition>}/>
           <Route path="/resume" element={<PageTransition><Profile/></PageTransition>}/>
           <Route path="/skill" element={<PageTransition><Skills/></PageTransition>}/>
           <Route path="/project" element={<PageTransition><Project/></PageTransition>}/>
           <Route path="/contact" element={<PageTransition><Contact/></PageTransition>}/>
-
-          <Route path="/" element={<PageTransition><Homepage/></PageTransition>}/>
           <Route path="*" element={<NotFound />} />
         </Routes>
       </AnimatePresence>

@@ -29,7 +29,7 @@ export default function NotFound() {
                     </p>
 
                     <Link
-                        to="/home"
+                        to="/"
                         className="mt-2 flex items-center gap-2 py-2.5 px-8 bg-[#3730a3]
                         text-white rounded-xl font-semibold transition-all duration-300
                         hover:bg-[#1e1b4b] hover:shadow-lg hover:shadow-[#3730a3]/30"
